@@ -1,19 +1,15 @@
-# Problem 1
+#Program 1
+a=int(input('Enter a number:'))
+if a%2==0:
+    print(a,"is an even number.")
+else:
+    print(a,'is an odd number.')
 
-a=int(input('Enter first number:'))
-b=int(input('Enter second number:'))
-addition=a+b
-subtraction=a-b
-multiplication=a*b
-division=a/b
-print('Addition:',addition)
-print('Subtraction:',subtraction)
-print('Multiplication:',multiplication)
-print('Division:',division)
+    
 
-
-# Problem 2
-
-first=input('Enter your first name:')
-last=input('Enter your last name:')
-print('Hello ' + first + ' ' + last +'! welcome to python program.')
+#Program 2
+n=list(range(1,51))
+total=0
+for i in n:
+    total += i
+    print('The sum of numbers form 1 to 50 is:',total)
